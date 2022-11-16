@@ -1,2 +1,2 @@
-# Game Show App Project 6
- TreeHouse TechDegree Project #6
+# Uyghur langueage game project
+A little game to test your understanding of commonly used Uyghur vocabularies
