@@ -18,11 +18,11 @@ startButton.addEventListener('click', () => {
 
 //Step 3.5 show the prompt
 let prompt = [
-    'eggplant',
-    'cabbage',
+    'eggplant OR Cheze',
+    'cabbage OR Basai',
     'coconut',
-    'ginger',
-    'mint'
+    'ginger OR Singjiang',
+    'mint OR Bohe'
 ];
 
 let index = Math.floor((Math.random() * prompt.length)); 
