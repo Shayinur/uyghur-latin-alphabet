@@ -19,11 +19,12 @@ startButton.addEventListener('click', () => {
 //Step 3.5 show the prompt
 let prompt = [
     'eggplant OR Cheze',
-    'cabbage OR Basai',
-    'coconut',
+   'cabbage OR Basai',
+  'coconut',
     'ginger OR Singjiang',
     'mint OR Bohe'
 ];
+
 
 let index = Math.floor((Math.random() * prompt.length)); 
 promptDisplay.innerHTML = prompt[index];
@@ -60,6 +61,7 @@ function addPhraseToDisplay(arr){
 }
 const phraseArray = getRandomPhraseAsArray(phrases);
 addPhraseToDisplay(phraseArray); 
+
 
 //Step 7 -  Create a checkLetter function
 const checkLetter = button => {
