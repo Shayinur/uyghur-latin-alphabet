@@ -39,18 +39,18 @@ promptDisplay.innerHTML = prompt[index];
 
 //Step 4 - Create a phrases array that contains at least 5 different phrases as strings.
 const phrases = [
-    'Pedigen',
-    'Yeswilek',
-    'Kokus',
-    'Zenjiwil',
-    'Yalpuz',
-    'Palek',
-    'Terhemek',
-    'Ananas',
-    'Kerepshe',
-    'Boljurgen',
-    'Taratizaq',
-    'ashköki'
+    'pedigen',
+    'yeswilek',
+    'kokus',
+    'zenjiwil',
+    'yalpuz',
+    'palek',
+    'terhemek',
+    'ananas',
+    'kerepshe',
+    'boljurgen',
+    'taratizaq',
+    'ashkoki'
 ];
 
 //Step 5 - Create a getRandomPhraseAsArray function
