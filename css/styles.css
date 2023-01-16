@@ -4,13 +4,13 @@
 /* Variables */
 
 :root {
-  --color-win: #78CF82;
-  --color-lose: #D94545;
-  --color-start: #5b85b7;
-  --color-neutral: #445069;
+  --color-win: #8bd3dd;
+  --color-lose: #f582ae;
+  --color-start: #f3d2c1;
+  --color-neutral: #172c66;
   --color-neutral-light: #D2D2D2;
-  --color-keys: #37474F;
-  --color-keys-light: #E5E5E5;
+  --color-keys: #f3d2c1;
+  --color-keys-light: #001858;
   --font-size-large: 60px;
   --font-size-medium: 20px;
   --transition: all .2s ease-in-out;
@@ -99,7 +99,7 @@ button {
 
 .show {
   color: #000;
-  background-color: #76CE82;
+  background-color: #8bd3dd;
 }
 
 /* Keyboard */
@@ -117,7 +117,7 @@ button {
 }
 
 .btn__reset {
-  padding: 8px;
+  padding: 16px;
   margin: 50px auto;
   background: #FFFFFF;
   border-radius: 5px;
@@ -148,7 +148,8 @@ button {
 }
 
 .start a {
-  color: var(--color-win);
+  color: var(--color-neutral);
+  font-family: 'Open Sans', sans-serif;
 }
 
 .win {
