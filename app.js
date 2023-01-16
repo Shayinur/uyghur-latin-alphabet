@@ -19,10 +19,17 @@ startButton.addEventListener('click', () => {
 //Step 3.5 show the prompt
 let prompt = [
     'eggplant OR Cheze',
-   'cabbage OR Basai',
-  'coconut',
+    'cabbage OR Basai',
+    'coconut',
     'ginger OR Singjiang',
-    'mint OR Bohe'
+    'mint OR Bohe',
+    'Spinach OR Bosai',
+    'Cucumber OR Hangga',
+    'Pineapple OR Bolo',
+    'Celery OR ChinSai',
+    'Strawberry',
+    'Arugula',
+    'Cilantro'
 ];
 
 
@@ -36,7 +43,14 @@ const phrases = [
     'Yeswilek',
     'Kokus',
     'Zenjiwil',
-    'Yalpuz'
+    'Yalpuz',
+    'Palek',
+    'Terhemek',
+    'Ananas',
+    'Kerepshe',
+    'Boljurgen',
+    'Taratizaq',
+    'ashköki'
 ];
 
 //Step 5 - Create a getRandomPhraseAsArray function
